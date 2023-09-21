@@ -7,7 +7,7 @@ import pandas as pd
 from PIL import Image
 
 # Load the saved XGBoost model
-model_path ="C:\\ml_app\\random_forest_model.pkl"
+model_path ="random_forest_model.pkl"
 random_forest_model = pickle.load(open(model_path, 'rb'))
 
 # Define the Streamlit app title
