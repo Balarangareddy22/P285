@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-# Load the saved XGBoost model
+# Load the saved Random Forest model
 model_path ="random_forest_model.pkl"
 random_forest_model = pickle.load(open(model_path, 'rb'))
 
