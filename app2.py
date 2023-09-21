@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 16 19:17:19 2023
-
-@author: Dell
-"""
-
 # Import necessary libraries
 import streamlit as st
 import pickle
-import xgboost as xgb
+#import xgboost as xgb
 import numpy as np
 import pandas as pd
 from PIL import Image
