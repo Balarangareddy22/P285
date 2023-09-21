@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 16 19:17:19 2023
-
-@author: Dell
-"""
-
 # Import necessary libraries
 import streamlit as st
 import pickle
@@ -14,7 +7,7 @@ import pandas as pd
 from PIL import Image
 
 # Load the saved Random Forest model
-pickle_in = open("C:\\Users\\balar\\OneDrive\\Desktop\P285\\rf_model.pkl",'rb')
+pickle_in = open("C:\Users\balar\OneDrive\Desktop\P285\rf_model",'rb')
 random_forest_model = pickle.load(pickle_in)
 
 # Define the Streamlit app title
