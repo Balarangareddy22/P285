@@ -13,8 +13,8 @@ import streamlit as st
 # In[2]:
 
 
-pickle_in = open("C:\\Users\\balar\\OneDrive\\Desktop\\P285\\rf_model.pkl",'rb')
-classifier = pickle.load(pickle_in)
+filename = "C:\\Users\\balar\\OneDrive\\Desktop\\P285\\rf1_model"
+classifier = pickle.load(open(filename,'rb'))
 
 
 # In[3]:
