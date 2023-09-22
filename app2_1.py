@@ -7,7 +7,7 @@ import pandas as pd
 from PIL import Image
 
 # Load the saved Random Forest model
-pickle_in = open("C:\\Users\\balar\\OneDrive\\Desktop\\rf_model.pkl",'rb')
+pickle_in = open("C:\\Users\\balar\\OneDrive\\Desktop\\DS_project\\rff_model.pkl",'rb')
 random_forest_model = pickle.load(pickle_in)
 
 # Define the Streamlit app title
