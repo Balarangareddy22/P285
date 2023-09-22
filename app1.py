@@ -14,7 +14,7 @@ import streamlit as st
 
 
 filename = "C:\\Users\\balar\\OneDrive\\Desktop\\DS_project\\rff_model.pkl"
-classifier = pickle.load(open(filename,'rb'))
+classifier = pickle.load(open('filename','rb'))
 
 
 # In[3]:
